@@ -1,0 +1,3 @@
+To verify the SD-WAN load balancing configuration
+1. Continuing on the Local-FortiGate CLI session, enter the following command:
+diagnose sniffer packet any 'tcp[13]&2==2 and port 443' 4
