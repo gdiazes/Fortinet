@@ -6,3 +6,8 @@ To verify policy routing for HTTPS traffic
 1. Return to the open Local-FortiGate CLI session, and enter the following command on Local-FortiGate:
 diagnose sniffer packet any ' not host 172.16.100.1 and not host 172.16.100.3 and tcp
 [13]&2==2 and port 443' 4
+
+To verify non-HTTPS traffic routing
+1. Continuing on your Local-FortiGate CLI session, enter the following command:
+diagnose sniffer packet any ' not host 172.16.100.1 and not host 172.16.100.3 and tcp
+[13]&2==2 and port 80' 4
