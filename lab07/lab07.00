@@ -1,0 +1,13 @@
+#Configurarndo la ip managment <static>
+config systen interface
+edit portx
+set mod static
+set ip x.x.x.x/24
+append allowaccess http https
+end
+
+#Configurando hostname
+sonfi system global
+set hostname <HOSTNAME>
+
+execute restore config ftp <file> x.x.x.x ftpuser ftppassword
