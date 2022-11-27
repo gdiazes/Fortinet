@@ -1,0 +1,10 @@
+#MODE AtP
+config system global
+  set hostname Example1_host
+end
+
+config system ha
+  set mode active-passive
+  set group-name Example_cluster
+  set password HA_pass
+end
