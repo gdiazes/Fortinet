@@ -1,6 +1,4 @@
-######
-ALIAS
-#####
+>TRABAJANDO CON ALIAS
 >Configurando un alias
 #config system alias
 #edit <NOMBRE DEL ALIAS>
@@ -10,3 +8,9 @@ ALIAS
 #end
 > Para ejecutar se llama al nombre del alias.
 #alias puerto1
+
+>MOSTRANDO INFORMACIÓN GENERAL
+get system status
+>Obteniendo el modo del equipo <TRANSPARENTE | NAT>
+get system status | grep -f "Mode"
+
