@@ -1,1 +1,12 @@
-
+######
+ALIAS
+#####
+>Configurando un alias
+#config system alias
+#edit <NOMBRE DEL ALIAS>
+#edit puerto1
+#set command "<COMANDO>" 
+#set command "show system interface port1"
+#end
+> Para ejecutar se llama al nombre del alias.
+#alias puerto1
