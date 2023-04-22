@@ -1,1 +1,2 @@
 Distinguished Name    ou=Training,dc=trainingAD,dc=training,dc=lab
+Username            uid=adadmin,cn=Users,dc=trainingAD,dc=training,dc=lab
