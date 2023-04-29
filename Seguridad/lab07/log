@@ -1,0 +1,21 @@
+config log disk setting
+set maximun-log-age
+
+config log ?
+config log eventfilter
+config log setting
+get
+
+diagnose sys logdisk usage
+
+
+diagnose log test
+
+execute backup disk
+
+execute backup disk allogs
+
+execute backup disk allogs ftp <ip> <user> <password>
+
+>> Feature Visibility
+>>> enable Local Reports
