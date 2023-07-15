@@ -14,3 +14,4 @@ diagnose sniffer packet any ' not host 172.16.100.1 and not host 172.16.100.3 an
 
 
 sudo /Applications/Install\ macOS\ Ventura.app/Contents/Resources/createinstallmedia --volume /Volumes/USB
+get ?
