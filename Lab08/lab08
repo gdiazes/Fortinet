@@ -1,6 +1,4 @@
-#############################
-          ALIAS
-#############################
+#########   ALIAS   #############
 >> crear un alias
 show system interface port1
 >> alias comando
@@ -18,16 +16,12 @@ end
 alias puerto1
 
 
-#############################
-          STATUS
-#############################
+####     STATUS   ######
 >> Información general
 get system status
 
 
-#############################
-          CPU
-#############################
+#####       CPU     ######
 get system performance status
 
 diagnose sys top 1
@@ -35,15 +29,11 @@ uso de CPU, presione Shift+P.
 uso de RAM, presione Shift+M. 
 
 
-#############################
-          MEMORY
-#############################
+#####     MEMORY   ######
 diagnose hardware sysinfo conserve
 
 
-#############################
-          NIC
-#############################
+######       NIC    #####
 >> Datos de la nic
 get hardware nic <interface_name>
 
@@ -56,16 +46,12 @@ Speed:
 mode:
 - half-full
 
-#############################
-          ARP TABLE
-#############################
+#####      ARP TABLE   ######
 >> Revisar conflictos de ip del mismo segmento lan
 get system arp
 
 
-#############################
-          PING
-#############################
+######      PING   ######
 # execute ping-options
 adaptive-ping     Adaptive ping <enable|disable>.
 data-size         Integer value to specify datagram size in bytes.
@@ -81,9 +67,7 @@ execute traceroute <DEST>
 >> Pre configurando el ping source
 execute ping-options source 1.1.1.1
 
-#############################
-          DEBUG FLOW
-#############################
+###      DEBUG FLOW    ####
 Multi-step command
 >>Define a filter: 
 diagnose debug flow filter <filter>
@@ -97,15 +81,11 @@ diagnose debug flow trace start <xxx> Repeat number
 >>Stop the trace: 
 diagnose debug flow trace stop
 
-#############################
-          TOP (Linux)
-#############################
+######     TOP (Linux)   #####
 diagnose sys top
 kill process >> diagnose sys kill 11 <PID>
 
-#############################
-          VPN
-#############################
+#####       VPN    #######
 
 diagnose debug disable
 diagnose vpn ike log filter clear
@@ -116,9 +96,7 @@ diagnose debug enable
 diagnose debug reset
 diagnose debug disable
 
-#############################
-      Traffic Flow
-#############################
+####   Traffic Flow  ######
 
 diagnose debug disable 
 diagnose debug flow trace stop 
@@ -134,9 +112,7 @@ diagnose debug enable
 
 
 
-#############################
-      GREP
-#############################
+####    GREP   #####
 get system interface
 show system interface
 
