@@ -11,10 +11,10 @@ Asegúrate de agregar **5 adaptadores de red virtuales** a la máquina virtual d
 | Adaptador VM | Interfaz en Linux | Segmento / Red | IP Asignada | Destino / Etiqueta Topología |
 | :--- | :--- | :--- | :--- | :--- |
 | **Adapter 1** | `eth0` | NAT  | `10.160.10.100` | Salida a Internet Real |
-| **Adapter 2** | `eth1` | * WAN1* | `100.65.0.254` | Enlace **WAN1** hacia HQ-FGT (`Port1`) |
-| **Adapter 3** | `eth2` | * WAN2* | `100.66.0.254` | Enlace **WAN2** hacia HQ-FGT (`Port2`) |
-| **Adapter 4** | `eth3` | * WAN3* | `100.65.1.254` | Enlace **WAN3** hacia BR1-FGT (`Port3`) |
-| **Adapter 5** | `eth4` | * WAN4* | `100.66.1.254` | Enlace **WAN4** hacia BR1-FGT (`Port2`) |
+| **Adapter 2** | `eth1` | *WAN1* | `100.65.0.254` | Enlace **WAN1** hacia HQ-FGT (`Port1`) |
+| **Adapter 3** | `eth2` | *WAN2* | `100.66.0.254` | Enlace **WAN2** hacia HQ-FGT (`Port2`) |
+| **Adapter 4** | `eth3` | *WAN3* | `100.65.1.254` | Enlace **WAN3** hacia BR1-FGT (`Port3`) |
+| **Adapter 5** | `eth4` | *WAN4* | `100.66.1.254` | Enlace **WAN4** hacia BR1-FGT (`Port2`) |
 
 ---
 
