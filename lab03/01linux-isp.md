@@ -10,7 +10,7 @@ Asegúrate de agregar **5 adaptadores de red virtuales** a la máquina virtual d
 ### Tabla Resumen de Mapeo en VMware para `linux-isp`
 | Adaptador VM | Interfaz en Linux | Segmento / Red | IP Asignada | Destino / Etiqueta Topología |
 | :--- | :--- | :--- | :--- | :--- |
-| **Adapter 1** | `eth0` | NAT / Bridged | `10.160.10.100` | Salida a Internet Real |
+| **Adapter 1** | `eth0` | NAT  | `10.160.10.100` | Salida a Internet Real |
 | **Adapter 2** | `eth1` | *Custom: WAN1* | `100.65.0.254` | Enlace **WAN1** hacia HQ-FGT (`Port1`) |
 | **Adapter 3** | `eth2` | *Custom: WAN2* | `100.66.0.254` | Enlace **WAN2** hacia HQ-FGT (`Port2`) |
 | **Adapter 4** | `eth3` | *Custom: WAN3* | `100.65.1.254` | Enlace **WAN3** hacia BR1-FGT (`Port3`) |
